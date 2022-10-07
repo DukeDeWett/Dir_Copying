@@ -9,7 +9,7 @@ Requirements:
 •	File creation/copying/removal operations should be logged to a file and to the console output;
 •	Folder paths, synchronization interval and log file path should be provided using the command line arguments.
 ## Install
-`pip3 install -r requirements.txt`
+`pip install -r requirements.txt`
 ## Run
 `python task.py -c path/to/source/dir path/to/replica/dir time(in minutes) path/to/send/logs.log`   
 The program can be run via any console, it's made for Windows as I have windows installed on my PC and I could easily check if everything goes okay during implementation.
