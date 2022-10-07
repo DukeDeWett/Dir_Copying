@@ -6,7 +6,7 @@ import time
 
 def mirror(path1, path2, path3):
     try:
-        call(["robocopy", path1, path2, "/MIR", "/TEE"])
+        call(["robocopy", path1, path2, "/MIR", r"/LOG+:c:\file.log", "/TEE"])
         # Unfortunately it won't go to path3, so I had to print those logs to a specific file.
         print("The content of both libraries is now the same!", file=open(path3, 'a'))
     finally:
