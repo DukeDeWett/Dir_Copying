@@ -11,7 +11,7 @@ Requirements:
 ## Install
 `pip3 install -r requirements.txt`
 ## Run
-`python task.py -c path/to/source/dir path/to/replica/dir time(in minutes) path/to/send/logs.log`/n   
+`python task.py -c path/to/source/dir path/to/replica/dir time(in minutes) path/to/send/logs.log`   
 The program can be run via any console, it's made for Windows as I have windows installed on my PC and I could easily check if everything goes okay during implementation.
 
 To run program simply find it's path on your machine and then call it, by Python (or Python3) task.py(name of the file with an app) -c(it calls another parameters that are needed to run it) path\to\source\folder path\to\replica\folder 2 (time during which it's going to check if files from those folder match and if not - copy the content of source folder to replica folder again) path\to\file\where\you\want\your\logs.log
