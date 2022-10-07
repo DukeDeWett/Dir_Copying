@@ -1,4 +1,4 @@
-### Dir_Copying
+## Dir_Copying
 
 Problem:
 Implement a program that synchronizes two folders: source and replica. The program should maintain a full, identical copy of destination folder at replica folder.
@@ -15,7 +15,7 @@ The program can be run via any console, it's made for Windows as I have windows 
 
 To run program simply find it's path on your machine and then call it, by Python (or Python3) task.py(name of the file with an app) -c(it calls another parameters that are needed to run it) path\to\source\folder path\to\replica\folder 2 (time during which it's going to check if files from those folder match and if not - copy the content of source folder to replica folder again) path\to\file\where\you\want\your\logs.log
 
-# I highly recommend opening the cmd console with admin privileges as I expect the system to block such actions.
+## I highly recommend opening the cmd console with admin privileges as I expect the system to block such actions.
 
 ## Quit
 This program works as long as you don't turn it off so if you no longer need it - press alt+f4
